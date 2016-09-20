@@ -1,0 +1,116 @@
+header{
+	margin: 0;
+	background: #2E2EFE;	
+	color:#FE2E2E;
+	text-align: center; ;
+	position: 1em 0;
+	border-bottom: 5px solid #000;
+
+}
+
+body{
+	text-align: center;
+	background: url('../images/zz.png') no-repeat fixed center; 
+	   -webkit-border-radius:cover;
+      -moz-border-radius:cover;
+       border-radius:cover;
+	   background-size:cover;
+	   color: #000000;
+}
+#envoltura{
+        position:absolute;
+    /*left y top al 50% para que quede centrado en la pantalla*/
+    left:50%;
+    top:50%;
+    margin-left:-165px;
+    margin-top: -110px;
+    width: 335px;
+ 
+}
+#contenedor{
+    background-color:#84C9DE;
+    /*background-color:#356AA0;*/
+    /*box-shadow: 0 0 0 9px rgba(128,0,0,.1);*/
+    /*Margen de sombra alrededor del contenedor 8px negro*/
+   
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    /*Las 3 líneas siguientes, sirven para el borde redondeado
+     * pero para diferentes navegadores*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:8px;
+    
+}
+#cuerpo{
+    background:#ececec;
+    border:solid #ccc;
+    /*aumentando el 6px 'aparece' un borde*/
+    border-width: 10px 0px;
+    padding:20px 35px;
+}
+#principal{
+	position:absolute;
+    /*left y top al 50% para que quede centrado en la pantalla*/
+  width:100%;
+    
+  
+}
+#contenido{
+width:100%;
+
+	border-top: 255px;
+   border-right: 2px solid white;   
+   border-bottom: 2px solid white;
+   border-left: 2px solid white;
+ 
+box-shadow: 0px 0px 10px white;
+-moz-box-shadow: 0px 0px 10px white;
+-webkit-box-shadow: 0px 0px 10px white;
+-o-box-shadow: 0px 0px 10px white;
+background: rgba(255,255,255,0.5);
+}
+
+ 
+nav{
+	text-align: center;
+	margin-top: 0.7em;
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+}
+nav li a{
+	text-decoration: none;
+	background: #0489B1;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.6em 0.3em;
+	box-shadow: 5px 5px 5px #333;
+}
+nav li a:hover {
+	text-decoration: none;
+	background: #AAE9F8;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.6em 0.3em;
+}
+footer{
+	border-top: 3px solid #000;
+	background: #848484;
+	color:#FF0000;
+	text-align: center;
+	font-size: 0.7em;
+	padding: 1em 0;
+}
+section#contenido{
+	background: #fff;
+	padding: 1em ;
+	margin: 2em auto;
+	width: 80%;
+}
+
+#formularoactualiza
+{
+	width:960px;
+	margin:0 auto;
+}
